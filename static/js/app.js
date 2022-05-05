@@ -19,3 +19,22 @@ function buildTable(data) {
         });
     });
 };
+
+function handleClick() {
+    let date = d3.select("#datetime").property("value");
+    // Set unfiltered table to original raw data 
+    let filteredData = tableData;
+    // Use if statement to filter default date to only show date entered
+    if (date) {
+        // Apply filter to the table data to only keep rows where date matched the inputed date
+        filteredData = filteredData.filter(row => row.datetime === date); 
+    };
+    // Rebuild the table using filtered data
+    buildTable(filteredData);
+};
+
+// Listen for click event
+d3.selectAll("#filter-btn").on("click", handleClick);
+
+// Need unfiltered table to be displayed when the webpage is opened 
+buildTable(tableData);
