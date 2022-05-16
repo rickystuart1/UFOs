@@ -47,7 +47,7 @@ To reset filter you can either delete the filters you have applied and click ent
 
 - Add pages for the data, so the user can go through 20 rows of data and then click to the next page to avoid being overwhelmed with so many rows of data. 
 
-- Add drop down filters on the table on each column with the avaialable data to filter. And when one is selected, remove data that no longer fits the search from other columns' drop down filters. This would help keep the user from combing through the data to figure out what they want to filter for. 
+- Add drop down filters on the table on each column with the available data to filter. And when one is selected, remove data that no longer fits the search from other columns' drop down filters. This would help keep the user from combing through the data to figure out what they want to filter for. 
 
 - Add a range for the data filter, so a user can look at data from more than one day. 
 
