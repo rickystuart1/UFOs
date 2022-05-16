@@ -39,8 +39,9 @@ To reset filter you can either delete the filters you have applied and click ent
 ## Summary
 
 ### Drawbacks
-- Filter input is case sensitive and limited to state and country abbrevations (ca vs california) which a user might not realize and think there is no data for their search criteria. 
 - The data is very limited to events that occured in a two week period, so it would not be a very good resource for an analysis. 
+- Filter input is case sensitive and limited to state and country abbrevations (ca vs california) which a user might not realize and think there is no data for their search criteria. 
+<img src='static/images/errorFilter.png'>
 
 ### Ideas
 
